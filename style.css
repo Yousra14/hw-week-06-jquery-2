@@ -1,0 +1,35 @@
+body{
+    box-sizing: border-box;
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+p{color: grey;}
+
+.frist,.second,.third{
+    background-color: rgb(29, 27, 27);
+    padding-top:20%;
+    text-align: center;
+}
+.third{padding-bottom: 5%;}
+
+.secret,#secret{
+    font-family: georgia;
+    color: whitesmoke;
+}
+
+button{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: thistle;
+    color: black;
+    font-family: georgia;
+    font-size: 0.9em;
+    margin-left: 20%;
+}
